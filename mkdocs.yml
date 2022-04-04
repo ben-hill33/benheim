@@ -21,4 +21,4 @@ nav:
 plugins:
   - mkdocs-jupyter
 
-theme: windmill-dark
+theme: material
