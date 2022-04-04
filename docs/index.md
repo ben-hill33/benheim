@@ -1,4 +1,4 @@
-# Welcome to BenDeavor
+# Welcome to BenHeim
 
 This wiki is a catalogue endeavor with the purpose of documenting past and present projects through my software development career. 
 

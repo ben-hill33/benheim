@@ -1,11 +1,24 @@
-site_name: Ben Hill Wiki
-
+site_name: BenHeim Wiki
+site_url: https://github.com/ben-hill33/benheim
 nav:
-- Home: index.md
-- Notebook page: notebook.ipynb
-- Python File: list_things.py
+- Home: 'index.md'
+- About: 'about.md'
+- Python:
+    - 'Basics': 'pre-work.md'
+    - 'Pandas Basics': 'data-science.md'
+    - 'Advanced placeholder': 'pre-work-advanced.md'
+    - 'TDD with Python 1': 'pytest.md'
+    - 'TDD with Python 2': 'pytest-tdd.md'
+    - 'Dictionaries': 'File IO & Exceptions'
+    - 'Objects and Recursion': 'classes-objects.md'
+    - 'Pytest: Fixtures and Coverage': 'pytest-fix-cov.md'
+- Intro to Operating Systems:
+    - 'Networking': 'networking.md'
+    - 'Security, Troubleshooting, and Performance': 'sec.md'
+
+
 
 plugins:
   - mkdocs-jupyter
 
-theme: material
+theme: windmill-dark
