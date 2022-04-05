@@ -48,12 +48,12 @@ nav:
 - About: 'about.md'
 - Python:
     - Data-Types: 
-        - 'python/data-types/lists.ipynb'
-        - 'python/data-types/dict.md'
+        - 'python-fun/data-types/lists.ipynb'
+        - 'python-fun/data-types/dict.md'
         - 'Objects and Recursion': 'classes-objects.md'
 - Intro to Operating Systems:
-    - 'operating-systems/networking.md'
-    - 'Security, Troubleshooting, and Performance': 'sec.md'
+    - Networking: 'operating-systems/networking.md'
+    - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'
 
 extra_css:
   - stylesheets/extra.css
