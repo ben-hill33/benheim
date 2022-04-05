@@ -1,15 +1,7 @@
 # Welcome to BenHeim
 
-This wiki is a catalogue endeavor with the purpose of documenting past and present projects through my software development career. 
+This wiki is an attempt to document programming topics and projects that I've done or am currently doing in my software development career.
 
-
-# Table of Contents
-
-**To view deployed github pages version of this repo, click [here](https://benhill-401-advanced-javascript.github.io/reading-notes/)**
-
-## Code Fellows Reading Notes
-
-### [Code 201: Beginner](https://www.codefellows.org/courses/code-201/foundations-of-software-development/)
 
 > The secret of getting ahead is getting started
 > **- Mark Twain**
@@ -88,8 +80,6 @@ This wiki is a catalogue endeavor with the purpose of documenting past and prese
 - **[Redux](javascript/redux.md)**
 - **[React Native](javascript/react-native.md)**
 
-
-### [401: Python](https://www.codefellows.org/courses/code-401/advanced-software-development-in-python/)
 
 > Who are you, so wise in the ways of science?
 > **- Sir Bedevere (Monty Python and the Holy Grail)**

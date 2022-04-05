@@ -12,6 +12,7 @@ jupyter = "^1.0.0"
 matplotlib = "^3.5.1"
 mkdocs-windmill-dark = "^0.2.0"
 mkdocs-material = "^8.2.8"
+flake8 = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
 
