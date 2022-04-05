@@ -3,16 +3,45 @@ site_url: https://github.com/ben-hill33/wikiheim
 
 theme:
   name: material
+  icon:
+    admonition:
+      note: fontawesome/solid/sticky-note
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/info-circle
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/question-circle
+      warning: fontawesome/solid/exclamation-triangle
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
   features:
     - navigation.instant
     - navigation.tabs.sticky
     - navigation.top
 
 markdown_extensions:
+  - attr_list
   - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.details
+  
 
 plugins:
   - mkdocs-jupyter
+  - search
 
 nav:
 - Home: 'index.md'
@@ -23,8 +52,9 @@ nav:
         - 'python/data-types/dict.md'
         - 'Objects and Recursion': 'classes-objects.md'
 - Intro to Operating Systems:
-    - 'Networking': 'networking.md'
+    - 'operating-systems/networking.md'
     - 'Security, Troubleshooting, and Performance': 'sec.md'
 
-
+extra_css:
+  - stylesheets/extra.css
 
