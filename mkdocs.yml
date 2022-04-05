@@ -52,7 +52,7 @@ nav:
         - 'python-fun/data-types/dict.md'
         - 'Objects and Recursion': 'classes-objects.md'
 - Intro to Operating Systems:
-    - Networking: 'operating-systems/networking.md'
+    - Networks: 'operating-systems/networking.md'
     - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'
 
 extra_css:

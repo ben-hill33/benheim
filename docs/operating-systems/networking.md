@@ -1,4 +1,4 @@
-# :material-lan:Networks
+# :material-lan: Networks
 
 !!! note "Some questions to know the answers to:"
 
