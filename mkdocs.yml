@@ -18,6 +18,7 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
   features:
+    - content.tabs.link
     - navigation.instant
     - navigation.tabs.sticky
     - navigation.top

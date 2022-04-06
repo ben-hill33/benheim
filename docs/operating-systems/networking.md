@@ -1,5 +1,62 @@
 # :material-lan: Networks
 
+## :material-linux: Network Configuration tutorial in Linux
+
+
+:fontawesome-solid-list-ul: **Procedure**
+
+- Discover host IP configurations.
+- Manage network inferfaces.
+- Use network utilities
+
+### :octicons-terminal-16: Discover host IP configurations
+
+!!! example "Ubuntu"
+
+    === "Terminal"
+
+        ``` markdown title="Root Directory"
+
+        - `ip addr` - Shows IP addresses assigned to all network interfaces.
+        - IPv4 addresses are listed after the `inet` designation.
+        - `ip route` to identify the default gateway IP address after the `via` designation.
+        - Enter `cd /var/lib/dhcp` and then `ls` to list lease files in the `/var/lib/ dhcp` directory.
+        - Enter `cat dhclient.leases` (replace `dhclient.leases` with your file name if necessary) to identify the DHCP server IP address in the option dhcp server identifier line.
+        - Enter `cat /run/systemd/resolv.conf` and identify the DNS server IP address in the `nameserver` line. If the “no such file or directory ” error message pops up, re-enter the command and check the spelling.
+        - Use the ping utility program to verify local network connectivity by using the `ping -c 4 192.168.1.1` command.
+         
+        ``` 
+
+??? question "What is the IP address of your Ubuntu machine?"
+        127.0.0.1
+
+??? question "What is the IP address of its default gateway?"
+        192.168.1.1
+
+??? question "What is the IP address of its DHCP server?"
+        192.168.1.1
+
+??? question "What is the IP address of its DNS server?"
+        192.168.1.1
+
+### :octicons-terminal-16: Manage Network Interfaces
+
+- Enter `cd ~` to return to the home directory.
+
+!!! note inline end
+        `ip link` omits the IP address information which is displayed by the `ip addr` command.
+
+- Enter `ip link` to display all network interfaces.
+
+!!! info inline
+        The output from `ip link` should have a `eth0` option that likely would have produced a line with a `state UP`. Notice the `sudo ip link set eth0 down` command changes the state.
+
+- Enter `sudo ip link set eth0 down`
+
+??? question "Which DHCP message is shown in the output of the sudo  dhclient  –v  –r  eth0 command? [hint: the message name is in uppercase.]"
+
+??? question "Which four DHCP messages are shown in the output of the sudo  dhclient  –v  eth0 command? [hint: the message names are in uppercase.]"
+
 !!! note "Some questions to know the answers to:"
 
 ??? question "What is a valid APIPA address?"
