@@ -11,4 +11,4 @@ Data flow is built via components which makes re-rendering highly effecient
 
 React has a "virtual DOM" which is just a JS object that monitors the current state of the object
 
-[Table of Contents](../../index.md)
+ (../../index.md)

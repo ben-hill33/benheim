@@ -48,10 +48,24 @@ nav:
 - Home: 'index.md'
 - About: 'about.md'
 - Python:
-    - Data-Types: 
+    - Data Types: 
         - 'python-fun/data-types/lists.ipynb'
         - 'python-fun/data-types/dict.md'
-        - 'Objects and Recursion': 'classes-objects.md'
+        - 'python-fun/data-types/classes-objects.md'
+    - Data Science:
+        - 'python-fun/data-science/data-analysis.md'
+    - Django:
+        - 'python-fun/django/django.md'
+    - File System & IO:
+        - 'python-fun/FS-IO/file-and-exceptions.md'
+    - API's:
+        - 'python-fun/py-api/api-integration.md'
+    - Full Stack:
+        - 'python-fun/py-react/py-react.md'
+    - Security:
+        - 'python-fun/py-sec/cryptography.md'
+    - Testing:
+        - 'python-fun/testing/pytest.md'
 - Intro to Operating Systems:
     - Networks: 'operating-systems/networking.md'
     - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'
