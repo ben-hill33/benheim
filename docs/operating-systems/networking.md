@@ -2,7 +2,6 @@
 
 ## :material-linux: Network Configuration tutorial in Linux
 
-
 :fontawesome-solid-list-ul: **Procedure**
 
 - Discover host IP configurations.
@@ -17,14 +16,12 @@
 
         ``` markdown title="Root Directory"
 
-        - `ip addr` - Shows IP addresses assigned to all network interfaces.
-        - IPv4 addresses are listed after the `inet` designation.
+        1. `ip addr` - Shows IP addresses assigned to all network interfaces. IPv4 addresses are listed after the `inet` designation.
         - `ip route` to identify the default gateway IP address after the `via` designation.
         - Enter `cd /var/lib/dhcp` and then `ls` to list lease files in the `/var/lib/ dhcp` directory.
         - Enter `cat dhclient.leases` (replace `dhclient.leases` with your file name if necessary) to identify the DHCP server IP address in the option dhcp server identifier line.
         - Enter `cat /run/systemd/resolv.conf` and identify the DNS server IP address in the `nameserver` line. If the “no such file or directory ” error message pops up, re-enter the command and check the spelling.
         - Use the ping utility program to verify local network connectivity by using the `ping -c 4 192.168.1.1` command.
-         
         ``` 
 
 ??? question "What is the IP address of your Ubuntu machine?"
