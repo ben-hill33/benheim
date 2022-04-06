@@ -28,4 +28,4 @@ A dictionary consists of a collection of key-value pairs. Each key value pair ma
 A value is retrieved from a dictionary by specifying its corresponding key in square brackets
 
 
-[Table of Contents](../index.md)
+ (../index.md)
