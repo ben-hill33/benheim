@@ -69,7 +69,7 @@ nav:
 - Intro to Operating Systems:
     - Networks: 'operating-systems/networking.md'
     - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'
-
+    - Enhancing Security of a Linux computer: 'linux-sec.md'
 extra_css:
   - stylesheets/extra.css
 
