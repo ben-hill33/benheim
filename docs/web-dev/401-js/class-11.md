@@ -33,4 +33,4 @@ _Singleton Pattern:_
 [OWASP auth cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 [bcrypt docs](https://www.npmjs.com/package/bcrypt)
 
- (../index.md)
+  

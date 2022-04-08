@@ -12,4 +12,4 @@ When we talk about Big O and scalability of code, we mean when we grow bigger an
 How many steps does a function take to run?
 Algorithmic effeciency
 
- (../index.md)
+  

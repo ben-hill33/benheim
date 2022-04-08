@@ -15,4 +15,4 @@
 - [react-cookies component](https://www.npmjs.com/package/react-cookies)
 - [react-cookie library](https://www.npmjs.com/package/react-cookie)
 
- (../index.md)
+  

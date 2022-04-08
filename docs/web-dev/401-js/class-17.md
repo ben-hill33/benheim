@@ -42,4 +42,4 @@
 [OSI Model Explained (video)](https://www.youtube.com/watch?v=vv4y_uOneC0)
 [TCP Handshakes Explained (video)](https://www.youtube.com/watch?v=xMtP5ZB3wSk)
 
- (../index.md)
+  

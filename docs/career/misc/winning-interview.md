@@ -22,4 +22,4 @@
   - Practice whiteboarding as much as you can and have a solid understanding of data structures and algorithms so it'll be more fluid rolling into a problem.
   - Have a cheatsheet to compile all the details you need to remember like questions you want to ask
 
- (../index.md)
+  

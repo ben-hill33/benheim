@@ -15,4 +15,4 @@
 - **[expo snack](https://snack.expo.io/)**
 - **[ejecting](https://docs.expo.io/expokit/eject/?redirected)**
 
- (../index.md)
+  

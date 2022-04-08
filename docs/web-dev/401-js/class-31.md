@@ -31,4 +31,4 @@
 - [Hooks consortium repo](https://github.com/rehooks/awesome-react-hooks)
 - [10 hooks to have in your toolbox](https://blog.bitsrc.io/10-react-custom-hooks-you-should-have-in-your-toolbox-aa27d3f5564d)
 
- (../index.md)
+  

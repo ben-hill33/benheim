@@ -61,4 +61,4 @@
   [hooks and context example](https://medium.com/swlh/snackbars-in-react-an-exercise-in-hooks-and-context-299b43fd2a2b)
   [react context links](https://github.com/diegohaz/awesome-react-context)
 
- (../index.md)
+  

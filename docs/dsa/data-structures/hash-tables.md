@@ -93,5 +93,3 @@
 - [Tutorial video](https://www.youtube.com/watch?v=MfhjkfocRR0)
 - [Basics of Hash Tables](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
 - [Hash table wiki](https://en.wikipedia.org/wiki/Hash_table)
-
- (../index.md)

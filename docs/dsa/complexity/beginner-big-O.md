@@ -15,4 +15,4 @@ Big O notation is used in Computer Science to describe the performance or comple
 - **O(n2):** _Quadratic time complexity_ - As the elements in your list increase, the time it will take for your algorithm to run will increase exponentially.
   - Example: _Sorting Algorithm_ - Bubble Sort and insertion sort
 
- (../index.md)
+  

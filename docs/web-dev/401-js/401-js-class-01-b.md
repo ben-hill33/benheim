@@ -67,4 +67,4 @@ Your job is to redefine your expectations to fit into the reality that you shoul
 
 So you have a problem. Good. Now. Ask why it's a problem. Good. Now ask why 4 more times. You should get a different answer to each why. Now deploy your counter-measure, keep calm and return fire.
 
- (../index.md)
+  

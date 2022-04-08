@@ -14,4 +14,4 @@ Components are used to tell React what we want to see on the screen.
 
 - _React.Component_
 
- (../index.md)
+  
