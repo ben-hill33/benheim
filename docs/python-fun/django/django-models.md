@@ -124,7 +124,4 @@ python manage.py runserver
 To login to the site,
 - Open /admin URL and enter your new superuser id and password credentials
   - You'll be redirected to the login page, then back to /admin
-- Click on the **Add** link to the right of the model class name to create a new record. 
-
-
- (../index.md)
+- Click on the **Add** link to the right of the model class name to create a new record.

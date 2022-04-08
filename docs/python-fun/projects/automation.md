@@ -17,4 +17,3 @@ In Python, regex supported by `re` module which provides several functions that 
 ### Resources
 - [Watchdog docs](https://pythonhosted.org/watchdog/)
 
- (../index.md)

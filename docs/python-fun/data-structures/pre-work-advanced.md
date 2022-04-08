@@ -1,17 +1,14 @@
-# Advanced Tutorials
+# Advanced Concepts
 
-## [Generators](https://www.learnpython.org/en/Generators)
+- [Dunder methods](https://dbader.org/blog/python-dunder-methods)
+- [Iterators](https://dbader.org/blog/python-iterators)
+- [Generators](https://dbader.org/blog/python-generators)
 
 Generators are used to create iterators
 - are simple functions which return an iterable set of items, one at a time, in a special way
 - when an iteration over a set of items start using the for statement, the generator is run
 - once the generators function code reaches a **yield** statement, the generator yields its execution back to the for loop, returning a new value from the set
 - the generator function can generate as many values as it wants, yielding each one in its turn
-
-## [List Comprehensions](https://www.learnpython.org/en/List_Comprehensions)
-
-List comprehensions are a very power tool which creates a new list based on another list in a single, readable line. Example:
-![list comprehension](img/list_comp.png)
 
 ## [Multiple Function Arguments](https://www.learnpython.org/en/Multiple_Function_Arguments)
 
@@ -27,7 +24,7 @@ Regex is a tool for matching patterns in text.
 
 ## [Exception Handling](https://www.learnpython.org/en/Exception_Handling)
 
-Pythons solution to erros are **exceptions**. If you don't want an exception to stop the entire program, use a **try/except** block.
+Pythons solution to errors are **exceptions**. If you don't want an exception to stop the entire program, use a **try/except** block.
 - They act like a try/catch block in an async function in JavaScript, pretty straightforward.
 - Refer to [Python Docs](https://docs.python.org/3/tutorial/errors.html#handling-exceptions) for more
 
@@ -68,7 +65,7 @@ is the ability to examine classes, functions and keywords to know what they are,
   - isinstance() 
   - __doc__ 
   - __name__
-- Arguably the most important one being the **help()** function since you can use it to find what other functions do
+- Arguably the most important one being the help() function since you can use it to find what other functions do
 
 ## [Closures](https://www.learnpython.org/en/Closures)
 
@@ -107,5 +104,3 @@ applies a function of two arguments to the elements of an iterable, optionally s
 - **Important to note:**
     1. func requires two arguments, the first of which is the first element in iterable (if initial is not supplied) and the second the second element in iterable. If initial is supplied, then it becomes the first argument to func and the first element in iterable becomes the second element
     2. reduce "reduces" (I know, forgive me) iterable into a single value.
-
- (../index.md)

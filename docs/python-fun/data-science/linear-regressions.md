@@ -22,5 +22,3 @@ Scikit-learn is a powerful Python module for machine learning. It contains funct
 - [Real Python Liner Regression](https://realpython.com/linear-regression-in-python/)
 - [Train/Test Split and Cross Validation](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6)
 - [scikit-learn](https://scikit-learn.org/stable/)
-
- (../index.md)

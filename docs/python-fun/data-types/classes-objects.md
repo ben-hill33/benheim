@@ -61,6 +61,29 @@ just like dunder init, dunder __str__
 
 for stretch goals you'd just be changing the .skip
 
-LOOK UP MRO 
+LOOK UP MRO
 
- (../index.md)
+## [Recursion](https://www.geeksforgeeks.org/recursion/)
+**How is a particular problem solved using recursion?**
+- The idea is to represent a problem in terms of one or more smaller problems, and add one or more base conditions that stop the recursion
+**What is the difference between direct and indirect recursion?**
+- A function is called direct recursive if it calls the same function
+- A function is indirect recursive if it calls another function and that second function calls the first function directly or indirectly 
+**How is memory allocated to different function calls in recursion?**
+- When any function is called from main(), the memory is allocated to it on the stack. 
+- A recursive function calls itself, the memory for a called function is allocated on top of memory allocated to calling function and different copy of local variables is created for each function call.
+- When the base case is reached, the function returns its value to the fucntion by whom it is called and memory is de-allocated and the process continues
+  - Example:
+    ![recursion example](img/recursion.png)
+
+
+### Vocab
+- Recursion
+  - The process in which a function calls itself directly or indirectly 
+- Base condition
+  - is the starting point of your condition. If you're looking to solve a problem where n is less than or equal to one, that is your base case
+    - ```if(n <= 1)```
+
+
+### Videos
+- [Intro to Modules and Packages](https://realpython.com/courses/python-modules-packages/)

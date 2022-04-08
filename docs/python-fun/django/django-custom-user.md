@@ -86,6 +86,3 @@ For the rest, refer to your `accounts` directory in your codefellows/python fold
 **Videos**:
 - [Creating Custom User Models](https://www.youtube.com/watch?v=eCeRC7E8Z7Y&t=59s)
 - [Abstract User, User Profile and Signals in Django (how to add extra fields to the user model)](https://www.youtube.com/watch?v=EudKs1HPUfE)
-
-
- (../index.md)

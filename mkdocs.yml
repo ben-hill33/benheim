@@ -18,6 +18,7 @@ theme:
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
   features:
+    - content.code.annotate
     - content.tabs.link
     - navigation.instant
     - navigation.tabs.sticky
@@ -26,6 +27,7 @@ theme:
 markdown_extensions:
   - attr_list
   - admonition
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -33,6 +35,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.critic
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -41,7 +44,8 @@ markdown_extensions:
   
 
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
   - search
 
 nav:
@@ -49,23 +53,35 @@ nav:
 - About: 'about.md'
 - Python:
     - Data Types: 
-        - 'python-fun/data-types/lists.ipynb'
-        - 'python-fun/data-types/dict.md'
-        - 'python-fun/data-types/classes-objects.md'
+        - Py Basics Buffet: 'python-fun/data-types/pre-work.md'
+        - Lists: 'python-fun/data-types/list-methods.md'
+        - List Processing: 'python-fun/data-types/lists.ipynb'
+        - List Solutions: 'python-fun/data-types/list-solutions.md'
+        - Dictionaries: 'python-fun/data-types/dict.md'
+        - Classes and Objects: 'python-fun/data-types/classes-objects.md'
+    - Error Handling:
+        - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
+    - Data Structures:
+        - Py Data Structure Buffet: 'python-fun/data-structures/pre-work-advanced.md'
     - Data Science:
-        - 'python-fun/data-science/data-analysis.md'
+        - Data Analysis: 'python-fun/data-science/data-analysis.md'
+        - Linear Regression: 'python-fun/data-science/linear-regressions.md'
+        - Webscraping: 'python-fun/data-science/webscrape.md'
     - Django:
-        - 'python-fun/django/django.md'
-    - File System & IO:
-        - 'python-fun/FS-IO/file-and-exceptions.md'
-    - API's:
-        - 'python-fun/py-api/api-integration.md'
+        - Intro to Django: 'python-fun/django/django.md'
+        - Data Models: 'python-fun/django/django-models.md'
+        - Django Forms: 'python-fun/django/django-crud-forms.md'
+        - Django Custom User: 'python-fun/django/django-custom-user.md'
+        - Django REST Framework & Docker: 'python-fun/django/dj-rest-docker'
+    - File System:
+        - FileIO & Exceptions: 'python-fun/FS-IO/file-and-exceptions.md'
     - Full Stack:
-        - 'python-fun/py-react/py-react.md'
+        - React, Tailwind CSS, and Next.js: 'python-fun/py-react/py-react.md'
     - Security:
-        - 'python-fun/py-sec/cryptography.md'
+        - Cryptography: 'python-fun/py-sec/cryptography.md'
+        - API Access Management: 'python-fun/py-sec/api-integration.md'
     - Testing:
-        - 'python-fun/testing/pytest.md'
+        - Pytest: 'python-fun/testing/python-tdd.md'
 - Intro to Operating Systems:
     - Networks: 'operating-systems/networking.md'
     - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'

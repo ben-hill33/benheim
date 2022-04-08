@@ -90,5 +90,3 @@ Common field arguments:
 ### Other Resources
 - [Django Templates](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page)
 - [Django Views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
-
- (../index.md)

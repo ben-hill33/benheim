@@ -1,4 +1,4 @@
-# Authentication & Production Server
+## Authorization & Authentication in Servers
 
 ## [JWT (JSON Web Token)](https://jwt.io/introduction/)
 
@@ -118,5 +118,18 @@ urlpatterns = [
 
 Try using [httpie](https://httpie.io/) for new project
 
+## [Configuring Django Settings: Best Practices](https://djangostars.com/blog/configuring-django-settings-best-practices/)
 
- (../index.md)
+## [How does SSH work](https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work)
+
+## Resources
+- [Whitenoise](http://whitenoise.evans.io/en/stable/)
+- [CORS](https://en.m.wikipedia.org/wiki/Cross-origin_resource_sharing)
+- [Platform as a service](https://en.wikipedia.org/wiki/Platform_as_a_service)
+- [Infrastructure as a service](https://en.wikipedia.org/wiki/Infrastructure_as_a_service)
+
+## API Integration
+
+
+<!-- [Real Python Article](https://realpython.com/api-integration-in-python/)
+ -->
