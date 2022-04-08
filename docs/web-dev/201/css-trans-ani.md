@@ -1,4 +1,4 @@
-# Read: 14b - CSS Transforms, Transitions, and Animations
+# CSS Transforms, Transitions, and Animations
 
 ## Assorted Articles
 
