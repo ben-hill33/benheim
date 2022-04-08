@@ -69,4 +69,4 @@ When your database gets too big, you can have multiple servers to handle more an
 
 They can also automatically cache data for you as you're making the request. Ideally, you want to use a load balancer only when your servers are struggling from traffic. If you don't have that many users, probably a wasted resource. 
 
- (../index.md)
+  

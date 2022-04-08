@@ -28,4 +28,4 @@ Functions components are used because of simplicity => fast
 Functional state has recently been introduced via hook useState()
 THe difference between class state and functional state is class state has many
 
- (../index.md)
+  

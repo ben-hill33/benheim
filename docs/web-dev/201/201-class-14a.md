@@ -20,4 +20,4 @@ Google spent roughly 10 years and millions of dollars measuring nearly every asp
 The paradox is that Google's intense data collection and number crunching have led it to the same conclusions that good managers have always known. In the best teams, members listen to one another and show empathy to feelings and needs. 
 It wasn't a complete waste of time as now there is predictive indexes in most companies to give them useful data on common traits of an individual, which helps place that person into the team who works well with a particular group. 
 
- (../index.md)
+  

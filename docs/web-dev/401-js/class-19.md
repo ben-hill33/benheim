@@ -70,4 +70,4 @@ _Can an application be both a socket server and a socket connection?_
   8:33 - Health system (namespace sequel)
   9:00 - NGROK
 
- (../index.md)
+  

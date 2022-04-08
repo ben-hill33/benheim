@@ -115,4 +115,4 @@ Data and functionality are considered resources and are accessed using Uniform R
 [http reference](https://code-maze.com/the-http-reference/)
 [rest reference](https://www.restapitutorial.com/lessons/httpmethods.html)
 
- (../index.md)
+  

@@ -49,43 +49,55 @@ plugins:
   - search
 
 nav:
-- Home: 'index.md'
-- About: 'about.md'
-- Python:
-    - Data Types: 
-        - Py Basics Buffet: 'python-fun/data-types/pre-work.md'
-        - Lists: 'python-fun/data-types/list-methods.md'
-        - List Processing: 'python-fun/data-types/lists.ipynb'
-        - List Solutions: 'python-fun/data-types/list-solutions.md'
-        - Dictionaries: 'python-fun/data-types/dict.md'
-        - Classes and Objects: 'python-fun/data-types/classes-objects.md'
-    - Error Handling:
-        - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
-    - Data Structures:
-        - Py Data Structure Buffet: 'python-fun/data-structures/pre-work-advanced.md'
-    - Data Science:
-        - Data Analysis: 'python-fun/data-science/data-analysis.md'
-        - Linear Regression: 'python-fun/data-science/linear-regressions.md'
-        - Webscraping: 'python-fun/data-science/webscrape.md'
-    - Django:
-        - Intro to Django: 'python-fun/django/django.md'
-        - Data Models: 'python-fun/django/django-models.md'
-        - Django Forms: 'python-fun/django/django-crud-forms.md'
-        - Django Custom User: 'python-fun/django/django-custom-user.md'
-        - Django REST Framework & Docker: 'python-fun/django/dj-rest-docker'
-    - File System:
-        - FileIO & Exceptions: 'python-fun/FS-IO/file-and-exceptions.md'
-    - Full Stack:
-        - React, Tailwind CSS, and Next.js: 'python-fun/py-react/py-react.md'
-    - Security:
-        - Cryptography: 'python-fun/py-sec/cryptography.md'
-        - API Access Management: 'python-fun/py-sec/api-integration.md'
-    - Testing:
-        - Pytest: 'python-fun/testing/python-tdd.md'
-- Intro to Operating Systems:
-    - Networks: 'operating-systems/networking.md'
-    - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'
+    - Home: 'index.md'
+    - About: 'about.md'
+    - Python:
+        - Data Types: 
+            - Py Basics Buffet: 'python-fun/data-types/pre-work.md'
+            - Lists: 'python-fun/data-types/list-methods.md'
+            - List Processing: 'python-fun/data-types/lists.ipynb'
+            - List Solutions: 'python-fun/data-types/list-solutions.md'
+            - Dictionaries: 'python-fun/data-types/dict.md'
+            - Classes and Objects: 'python-fun/data-types/classes-objects.md'
+        - Error Handling:
+            - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
+        - Data Structures:
+            - Py Data Structure Buffet: 'python-fun/data-structures/pre-work-advanced.md'
+        - Data Science:
+            - Data Analysis: 'python-fun/data-science/data-analysis.md'
+            - Linear Regression: 'python-fun/data-science/linear-regressions.md'
+            - Webscraping: 'python-fun/data-science/webscrape.md'
+        - Django:
+            - Intro to Django: 'python-fun/django/django.md'
+            - Data Models: 'python-fun/django/django-models.md'
+            - Django Forms: 'python-fun/django/django-crud-forms.md'
+            - Django Custom User: 'python-fun/django/django-custom-user.md'
+            - Django REST Framework & Docker: 'python-fun/django/dj-rest-docker.md'
+        - File System:
+            - FileIO & Exceptions: 'python-fun/FS-IO/file-and-exceptions.md'
+        - Full Stack:
+            - React, Tailwind CSS, and Next.js: 'python-fun/py-react/py-react.md'
+        - Security:
+            - Cryptography: 'python-fun/py-sec/cryptography.md'
+            - API Access Management: 'python-fun/py-sec/api-integration.md'
+        - Testing:
+            - Pytest: 'python-fun/testing/python-tdd.md'
+    - Intro to Operating Systems:
+        - Networks: 'operating-systems/networking.md'
+        - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'
+    - Data Structures & Algorithms:
+        - Breadth First Search: 'dsa/algorithms/breadth-first.md'
+        - Complexity: 'dsa/complexity/O(n).md'
+        - Big O: 'dsa/complexity/beginner-big-O.md'
+        - Good Code: 'dsa/complexity/good-code.md'
+        - Space: 'dsa/complexity/spacing.md'
+        - Time: 'dsa/complexity/timing-code.md'
+        - Linked List: 'dsa/data-structures/link-list.md'
+        - Hash Tables: 'dsa/data-structures/hash-tables.md'
+        - Stacks & Queues: 'dsa/data-structures/stack-que.md'
+        - Trees: 'dsa/data-structures/trees.md'
+        - Graphs: 'dsa/data-structures/graphs.md'
+
 
 extra_css:
   - stylesheets/extra.css
-

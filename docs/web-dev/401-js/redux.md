@@ -40,4 +40,4 @@ This flux pattern replaces the MVC pattern, respectively. The problem was the Ac
 
 At the end of the day. Redux replaces `this.state` with one caveat. You could technically have redux state with React state 
 
- (../index.md)
+  

@@ -92,4 +92,4 @@ Or BST, is a data structure that keeps its keys in sorted order, so that operati
 - [npm: binary search tree](https://www.npmjs.com/search?q=binary%20search%20tree)
 - [functional red black tree npm](https://www.npmjs.com/package/functional-red-black-tree)
 
- (../index.md)
+  

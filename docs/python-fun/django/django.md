@@ -182,4 +182,4 @@ A text file defining the structure or layout of a file, with placeholders used t
 - [First Django App Part one](https://docs.djangoproject.com/en/3.0/intro/tutorial01/)
   - [Part Two](https://docs.djangoproject.com/en/3.0/intro/tutorial02/)
 
- (../index.md)
+  

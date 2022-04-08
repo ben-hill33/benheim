@@ -30,4 +30,4 @@ npm consists of three distinct components:
 - **interpreter** - A computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to have been compiled into a machine language program. (wiki)
 - **compiler** - Is a computer program that translates computer code written in one programming language into another language. (wiki)
 
- (../index.md)
+  

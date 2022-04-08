@@ -13,4 +13,4 @@
 - [thunk middleware](https://github.com/reduxjs/redux-thunk)
 - [redux thunk](https://www.digitalocean.com/community/tutorials/redux-redux-thunk)
 
- (../index.md)
+  

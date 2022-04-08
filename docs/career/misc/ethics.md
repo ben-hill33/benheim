@@ -24,4 +24,4 @@
 - [Ethical OS Toolkit](https://ethicalos.org/)
 - [Google AI Principles](https://www.blog.google/technology/ai/ai-principles/)
 
- (../index.md)
+  

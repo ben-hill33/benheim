@@ -13,4 +13,4 @@
 1. **What is Mongoose and why do we need it?**
    Mongoose is an object data modeling (ODM) library that provides a rigorous modeling environment for your data, enforcing structure as needed while still maintaining the flexibility that makes MongoDB powerful.
 
- (../index.md)
+  

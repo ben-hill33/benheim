@@ -102,4 +102,4 @@ A document db is a type of non-relational db that is designed to store and query
 Object Relation Mapping (ORM):
 A programming technique for converting data between incompatible type systems using OOP languages. This creates a virtual db that can be used from within the programming language.
 
- (../index.md)
+  

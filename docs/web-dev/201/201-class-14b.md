@@ -36,4 +36,4 @@ When more control is needed for transitions you can set animations for the trans
 - [404](https://codepen.io/kieranfivestars/pen/MYdQxX)
 - [Pure CSS Bounce Animation](https://codepen.io/dp_lewis/pen/gCfBv)
 
- (../index.md)
+  
