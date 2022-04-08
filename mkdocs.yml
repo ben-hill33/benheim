@@ -63,6 +63,8 @@ nav:
             - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
         - Data Structures:
             - Py Data Structure Buffet: 'python-fun/data-structures/pre-work-advanced.md'
+        - Modules:
+            - Regex: 'python-fun/notebooks/re-patterns.ipynb'
         - Data Science:
             - Data Analysis: 'python-fun/data-science/data-analysis.md'
             - Linear Regression: 'python-fun/data-science/linear-regressions.md'
@@ -82,9 +84,17 @@ nav:
             - API Access Management: 'python-fun/py-sec/api-integration.md'
         - Testing:
             - Pytest: 'python-fun/testing/python-tdd.md'
-    - Intro to Operating Systems:
-        - Networks: 'operating-systems/networking.md'
-        - Security, Troubleshooting, and Performance: 'operating-systems/sec.md'
+    - Programming:
+        - Database:
+            - The Story of Data: 'programming/database/data-story.md'
+            - SQL: 'programming/database/sql.md'
+            - Normalization: 'programming/database/db-normalize.md'
+            - Backend Performance: 'programming/database/backend-performance.md'
+            - Data in Microservices: 'programming/database/data-in-micro.md'
+        - Intro to Operating Systems:
+            - Networks: 'programming/operating-systems/networking.md'
+            - Security, Troubleshooting, and Performance: 'programming/operating-systems/sec.md'
+            - SSH: 'programming/operating-systems/intro-to-ssh.md'
     - Data Structures & Algorithms:
         - Breadth First Search: 'dsa/algorithms/breadth-first.md'
         - Complexity: 'dsa/complexity/O(n).md'
@@ -97,7 +107,68 @@ nav:
         - Stacks & Queues: 'dsa/data-structures/stack-que.md'
         - Trees: 'dsa/data-structures/trees.md'
         - Graphs: 'dsa/data-structures/graphs.md'
-
+    - Website Hub:
+        - Basic:
+            - Intro to HTML and JS: 'web-dev/201/201-class-01.md'
+            - HTML Text, CSS Intro, Basic JS Instructions: 'web-dev/201/201-class-02.md'
+            - HTML Lists, CSS Boxes, JS Control Flow: 'web-dev/201/201-class-03.md'
+            - HTML Links, CSS Layouts, JS Functions: 'web-dev/201/201-class-04.md'
+            - HTML Images; CSS Color & Text: 'web-dev/201/201-class-05.md'
+            - HTML Canvas Element & Charts: 'web-dev/201/201-class-12.md'
+            - HTML Tables, JS Constructor Functions: 'web-dev/201/201-class-07.md'
+            - More CSS Layout: 'web-dev/201/201-class-08.md'
+            - CSS Transforms, Transitions, and Animations: 'web-dev/201/css-trans-ani.md'
+            - JS Object Literals, The DOM: 'web-dev/201/201-class-06.md'
+            - Forms and Events: 'web-dev/201/201-class-09.md'
+            - JS Debugging: 'web-dev/201/201-class-10.md'
+            - Local Storage: 'web-dev/201/201-class-13.md'
+            - Assorted Topics: 'web-dev/201/201-class-11.md'
+        - Intermediate:
+              - 'web-dev/301/301-class-01.md'
+              - 'web-dev/301/301-class-02.md'
+              - 'web-dev/301/301-class-04.md'
+              - 'web-dev/301/301-class-05.md'
+              - 'web-dev/301/301-class-06.md'
+              - 'web-dev/301/301-class-07.md'
+              - 'web-dev/301/301-class-09.md'
+              - 'web-dev/301/301-class-10.md'
+              - 'web-dev/301/301-class-13.md'
+        - Advanced:
+              - 'web-dev/401-js/401-js-class-01-b.md'
+              - 'web-dev/401-js/401-js-class-01.md'
+              - 'web-dev/401-js/401-js-class-02.md'
+              - 'web-dev/401-js/class-08.md'
+              - 'web-dev/401-js/class-09.md'
+              - 'web-dev/401-js/class-11.md'
+              - 'web-dev/401-js/class-13.md'
+              - 'web-dev/401-js/class-14.md'
+              - 'web-dev/401-js/class-15.md'
+              - 'web-dev/401-js/class-16.md'
+              - 'web-dev/401-js/class-17.md'
+              - 'web-dev/401-js/class-19.md'
+              - 'web-dev/401-js/class-20.md'
+              - 'web-dev/401-js/class-26.md'
+              - 'web-dev/401-js/class-27.md'
+              - 'web-dev/401-js/class-28.md'
+              - 'web-dev/401-js/class-29-2.md'
+              - 'web-dev/401-js/class-30.md'
+              - 'web-dev/401-js/class-31.md'
+              - 'web-dev/401-js/class-32.md'
+              - 'web-dev/401-js/class-33.md'
+              - 'web-dev/401-js/class-35.md'
+              - 'web-dev/401-js/class-36.md'
+              - 'web-dev/401-js/class-37.md'
+              - 'web-dev/401-js/class-38.md'
+              - 'web-dev/401-js/class-39.md'
+              - 'web-dev/401-js/js-class-03.md'
+              - 'web-dev/401-js/js-class-04.md'
+              - 'web-dev/401-js/js-class-06.md'
+              - 'web-dev/401-js/js-class-07.md'
+              - 'web-dev/401-js/react-native.md'
+              - 'web-dev/401-js/react.md'
+              - 'web-dev/401-js/redux-additional.md'
+              - 'web-dev/401-js/redux.md'
+              - 'web-dev/401-js/typescript.md'
 
 extra_css:
   - stylesheets/extra.css

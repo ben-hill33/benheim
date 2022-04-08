@@ -17,14 +17,16 @@ Dictionaries differ from lists:
 - Dictionary elements are accessed via keys
 
 A dictionary consists of a collection of key-value pairs. Each key value pair maps the key to its associated value
+
 - you can define a dictionary by enclosing the key value pairs in curly brackets `(my_dict = { key: value, key: value })` or,
-- you can construct a dictionary using the built-in dict() function. 
-- The argument to dict() should be a sequence of key-value pairs. 
+- you can construct a dictionary using the built-in dict() function.
+- The argument to dict() should be a sequence of key-value pairs.
 - A list of tuples works well for that:
 
-![build in dictionary](../dict-img/built-in-func.png)
+![build in dictionary](dict-img/built-in-func.png)
 
 - Dictionaries are **not** accessed by numerical index
 
-### Dictionary Access
+Dictionary Access
+
 A value is retrieved from a dictionary by specifying its corresponding key in square brackets

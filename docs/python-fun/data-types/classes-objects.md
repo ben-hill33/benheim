@@ -74,7 +74,7 @@ LOOK UP MRO
 - A recursive function calls itself, the memory for a called function is allocated on top of memory allocated to calling function and different copy of local variables is created for each function call.
 - When the base case is reached, the function returns its value to the fucntion by whom it is called and memory is de-allocated and the process continues
   - Example:
-    ![recursion example](img/recursion.png)
+    ![recursion example](../img/recursion.png)
 
 
 ### Vocab
