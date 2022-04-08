@@ -61,7 +61,3 @@ Enter dice to keep, or (q)uit:
 YOu have 1500 unbanked points and 0 dice remaining
 (r)oll again, (b)ank your points or (q)uit:
 *** random output of numbers as above ***
-
-[counter method](https://pymotw.com/3/collections/counter.html)
-
- (../index.md)

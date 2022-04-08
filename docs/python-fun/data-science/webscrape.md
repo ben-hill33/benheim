@@ -113,6 +113,3 @@ for one_a_tag in soup.findAll('a'):  #'a' tags are for links
     line_count +=1
 ```
 You can find the authors Jupyter Notebook for this [here](https://github.com/julia-git/webscraping_ny_mta)
-
-
- (../index.md)

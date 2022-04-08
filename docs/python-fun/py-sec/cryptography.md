@@ -23,5 +23,3 @@ The encryption step performed by a Caesar cipher is often incorporated as part o
 - [Crash course cyrptography video](https://www.youtube.com/watch?v=jhXCTbFnK8o)
 - [thebestvpn: Intro to Cryptography](https://thebestvpn.com/cryptography/)
 - [How computer generate random numbers](https://www.howtogeek.com/183051/htg-explains-how-computers-generate-random-numbers/)
-
- (../index.md)

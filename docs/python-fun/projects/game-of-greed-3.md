@@ -20,4 +20,3 @@ is equivalent to:
 [Primer on Decorators](https://realpython.com/primer-on-python-decorators/)
 - [Debugging with PySnooper](https://www.pythonpodcast.com/pysnooper-python-debugging-episode-241/)
 
- (../index.md)

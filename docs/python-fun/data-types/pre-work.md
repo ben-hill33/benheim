@@ -1,3 +1,5 @@
+# Basics Buffet
+
 ## [Hello, World!](https://www.learnpython.org/en/Hello%2C_World%21)
 
 Python encourages programmers to program without boilerplate (prepared) code.
@@ -140,5 +142,3 @@ A module is a piece of software that has specific functionality like building a 
 - Packages are namespaces which contain multiple packages and modules themselves.
 - Each package in python is a directory which **must** a special file called **`__init__.py`**
 - the init file can also decide which modules the package exports as the API, while keeping other modules internal, by overriding the **`__all__`** variable
-
- (../index.md)
