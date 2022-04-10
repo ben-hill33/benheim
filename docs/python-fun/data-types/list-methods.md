@@ -65,3 +65,5 @@ Generally, using a list method yields more readable code.
 The `list.sort()` and `list.reverse()` methods rearrange a list element's ordering, performing in-place modification of the list.
 
 The `list.index()` and `list.count()` return information about the list and do not modify the list.
+
+??? question ":material-language-python:  Python's `enumerate()`: a Looping Primer :fontawesome-solid-person-walking-arrow-loop-left:"
