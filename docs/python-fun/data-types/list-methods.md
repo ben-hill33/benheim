@@ -82,3 +82,7 @@ The `list.index()` and `list.count()` return information about the list and do n
         | my_list[start:]           	| Get a list from start to end of the list.                       	| my_list = [5, 10, 20, 40, 80]<br>print(my_list[2:])    	| [20, 40, 80]        	|
         | my_list[:end]             	| Get a list from beginning of list to end (minus 1).             	| my_list = [5, 10, 20, 40, 80]<br>print(my_list[:4])    	| [5, 10, 20, 40]     	|
         | my_list[:]                	| Get a copy of the list.                                         	| my_list = [5, 10, 20, 40, 80]<br>print(my_list[:])     	| [5, 10, 20, 40, 80] 	|
+
+### List Nesting
+
+Since a list can contain any type of object as an element, and a list is itself an object, a list can contain another list as an element. Such embedding of a list inside another list is known as list nesting. Ex: The code `my_list = [[5, 13], [50, 75, 100]]` creates a list with two elements that are each another list.

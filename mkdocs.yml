@@ -1,4 +1,4 @@
-site_name: BenHeim Wiki
+site_name: Ben Hill's Wiki
 site_url: https://github.com/ben-hill33/wikiheim
 
 theme:
@@ -35,6 +35,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.critic
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -58,6 +60,7 @@ nav:
             - List Processing: 'python-fun/data-types/lists.ipynb'
             - List Solutions: 'python-fun/data-types/list-solutions.md'
             - Dictionaries: 'python-fun/data-types/dict.md'
+            - Vectors: 'python-fun/data-types/vectors.md'
             - Classes and Objects: 'python-fun/data-types/classes-objects.md'
         - Error Handling:
             - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
@@ -172,3 +175,7 @@ nav:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
