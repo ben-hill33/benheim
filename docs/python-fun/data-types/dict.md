@@ -49,6 +49,7 @@ Dictionary methods can perform some useful operations, such as adding or removin
     | my_dict.get(key, default) 	| Reads the value of the key entry from the dictionary. If the key does not exist in the dictionary, then returns default.                      	| my_dict = {'Ahmad': 1, 'Jane': 42}<br>print(my_dict.get('Jane', 'N/A'))<br>print(my_dict.get('Chad', 'N/A')) 	| 42 N/A                               	|
     | my_dict1.update(my_dict2) 	| Merges dictionary my_dict1 with another dictionary my_dict2. Existing entries in my_dict1 are overwritten if the same keys exist in my_dict2. 	| my_dict = {'Ahmad': 1, 'Jane': 42}<br>my_dict.update({'John': 50})<br>print(my_dict)                         	| {'Ahmad': 1, 'Jane': 42, 'John': 50} 	|
     | my_dict.pop(key, default) 	| Removes and returns the key value from the dictionary. If key does not exist, then default is returned.                                       	| my_dict = {'Ahmad': 1, 'Jane': 42}<br>val = my_dict.pop('Ahmad')<br>print(my_dict)                           	| {'Jane': 42}                         	|
+
 ??? info "Resources"
 
     [Dictionaries in Python](https://realpython.com/python-dicts/)
