@@ -2,53 +2,52 @@ site_name: Ben Hill's Wiki
 site_url: https://github.com/ben-hill33/wikiheim
 
 theme:
-  name: material
-  icon:
-    admonition:
-      note: fontawesome/solid/sticky-note
-      abstract: fontawesome/solid/book
-      info: fontawesome/solid/info-circle
-      tip: fontawesome/solid/bullhorn
-      success: fontawesome/solid/check
-      question: fontawesome/solid/question-circle
-      warning: fontawesome/solid/exclamation-triangle
-      failure: fontawesome/solid/bomb
-      danger: fontawesome/solid/skull
-      bug: fontawesome/solid/robot
-      example: fontawesome/solid/flask
-      quote: fontawesome/solid/quote-left
-  features:
-    - content.code.annotate
-    - content.tabs.link
-    - navigation.instant
-    - navigation.tabs.sticky
-    - navigation.top
+    name: material
+    icon:
+        admonition:
+        note: fontawesome/solid/sticky-note
+        abstract: fontawesome/solid/book
+        info: fontawesome/solid/info-circle
+        tip: fontawesome/solid/bullhorn
+        success: fontawesome/solid/check
+        question: fontawesome/solid/question-circle
+        warning: fontawesome/solid/exclamation-triangle
+        failure: fontawesome/solid/bomb
+        danger: fontawesome/solid/skull
+        bug: fontawesome/solid/robot
+        example: fontawesome/solid/flask
+        quote: fontawesome/solid/quote-left
+    features:
+        - content.code.annotate
+        - content.tabs.link
+        - navigation.instant
+        - navigation.tabs.sticky
+        - navigation.top
 
 markdown_extensions:
-  - attr_list
-  - admonition
-  - tables
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.critic
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.snippets
-  - pymdownx.details
-  
+    - attr_list
+    - admonition
+    - tables
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.critic
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - pymdownx.snippets
+    - pymdownx.details
 
 plugins:
-  - mkdocs-jupyter:
-      ignore_h1_titles: True
-  - search
+    - mkdocs-jupyter:
+            ignore_h1_titles: True
+    - search
 
 nav:
     - Home: 'index.md'
@@ -67,6 +66,7 @@ nav:
         - Data Structures:
             - Py Data Structure Buffet: 'python-fun/data-structures/pre-work-advanced.md'
         - Modules:
+            - Standard Library: 'python-fun/notebooks/standard.md'
             - Regex: 'python-fun/notebooks/re-patterns.ipynb'
         - Data Science:
             - Data Analysis: 'python-fun/data-science/data-analysis.md'
@@ -127,55 +127,55 @@ nav:
             - Local Storage: 'web-dev/201/201-class-13.md'
             - Assorted Topics: 'web-dev/201/201-class-11.md'
         - Intermediate:
-              - 'web-dev/301/301-class-01.md'
-              - 'web-dev/301/301-class-02.md'
-              - 'web-dev/301/301-class-04.md'
-              - 'web-dev/301/301-class-05.md'
-              - 'web-dev/301/301-class-06.md'
-              - 'web-dev/301/301-class-07.md'
-              - 'web-dev/301/301-class-09.md'
-              - 'web-dev/301/301-class-10.md'
-              - 'web-dev/301/301-class-13.md'
+                - 'web-dev/301/301-class-01.md'
+                - 'web-dev/301/301-class-02.md'
+                - 'web-dev/301/301-class-04.md'
+                - 'web-dev/301/301-class-05.md'
+                - 'web-dev/301/301-class-06.md'
+                - 'web-dev/301/301-class-07.md'
+                - 'web-dev/301/301-class-09.md'
+                - 'web-dev/301/301-class-10.md'
+                - 'web-dev/301/301-class-13.md'
         - Advanced:
-              - 'web-dev/401-js/401-js-class-01-b.md'
-              - 'web-dev/401-js/401-js-class-01.md'
-              - 'web-dev/401-js/401-js-class-02.md'
-              - 'web-dev/401-js/class-08.md'
-              - 'web-dev/401-js/class-09.md'
-              - 'web-dev/401-js/class-11.md'
-              - 'web-dev/401-js/class-13.md'
-              - 'web-dev/401-js/class-14.md'
-              - 'web-dev/401-js/class-15.md'
-              - 'web-dev/401-js/class-16.md'
-              - 'web-dev/401-js/class-17.md'
-              - 'web-dev/401-js/class-19.md'
-              - 'web-dev/401-js/class-20.md'
-              - 'web-dev/401-js/class-26.md'
-              - 'web-dev/401-js/class-27.md'
-              - 'web-dev/401-js/class-28.md'
-              - 'web-dev/401-js/class-29-2.md'
-              - 'web-dev/401-js/class-30.md'
-              - 'web-dev/401-js/class-31.md'
-              - 'web-dev/401-js/class-32.md'
-              - 'web-dev/401-js/class-33.md'
-              - 'web-dev/401-js/class-35.md'
-              - 'web-dev/401-js/class-36.md'
-              - 'web-dev/401-js/class-37.md'
-              - 'web-dev/401-js/class-38.md'
-              - 'web-dev/401-js/class-39.md'
-              - 'web-dev/401-js/js-class-03.md'
-              - 'web-dev/401-js/js-class-04.md'
-              - 'web-dev/401-js/js-class-06.md'
-              - 'web-dev/401-js/js-class-07.md'
-              - 'web-dev/401-js/react-native.md'
-              - 'web-dev/401-js/react.md'
-              - 'web-dev/401-js/redux-additional.md'
-              - 'web-dev/401-js/redux.md'
-              - 'web-dev/401-js/typescript.md'
+                - 'web-dev/401-js/401-js-class-01-b.md'
+                - 'web-dev/401-js/401-js-class-01.md'
+                - 'web-dev/401-js/401-js-class-02.md'
+                - 'web-dev/401-js/class-08.md'
+                - 'web-dev/401-js/class-09.md'
+                - 'web-dev/401-js/class-11.md'
+                - 'web-dev/401-js/class-13.md'
+                - 'web-dev/401-js/class-14.md'
+                - 'web-dev/401-js/class-15.md'
+                - 'web-dev/401-js/class-16.md'
+                - 'web-dev/401-js/class-17.md'
+                - 'web-dev/401-js/class-19.md'
+                - 'web-dev/401-js/class-20.md'
+                - 'web-dev/401-js/class-26.md'
+                - 'web-dev/401-js/class-27.md'
+                - 'web-dev/401-js/class-28.md'
+                - 'web-dev/401-js/class-29-2.md'
+                - 'web-dev/401-js/class-30.md'
+                - 'web-dev/401-js/class-31.md'
+                - 'web-dev/401-js/class-32.md'
+                - 'web-dev/401-js/class-33.md'
+                - 'web-dev/401-js/class-35.md'
+                - 'web-dev/401-js/class-36.md'
+                - 'web-dev/401-js/class-37.md'
+                - 'web-dev/401-js/class-38.md'
+                - 'web-dev/401-js/class-39.md'
+                - 'web-dev/401-js/js-class-03.md'
+                - 'web-dev/401-js/js-class-04.md'
+                - 'web-dev/401-js/js-class-06.md'
+                - 'web-dev/401-js/js-class-07.md'
+                - 'web-dev/401-js/react-native.md'
+                - 'web-dev/401-js/react.md'
+                - 'web-dev/401-js/redux-additional.md'
+                - 'web-dev/401-js/redux.md'
+                - 'web-dev/401-js/typescript.md'
 
 extra_css:
-  - stylesheets/extra.css
+    - stylesheets/extra.css
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
