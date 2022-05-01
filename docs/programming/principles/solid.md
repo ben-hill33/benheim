@@ -1,3 +1,9 @@
-## SOLID Programming
+### Single Responsibility
 
-Coming soon!
+### Open / Closed
+
+### Liskov Substitution
+
+### Interface Segretation
+
+### Dependency Inversion
