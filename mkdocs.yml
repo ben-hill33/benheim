@@ -99,6 +99,7 @@ nav:
             - Backend Performance: 'programming/database/backend-performance.md'
             - Data in Microservices: 'programming/database/data-in-micro.md'
         - Intro to Operating Systems:
+            - Linux Questions: 'programming/operating-systems/linux-practice.md'
             - Networks: 'programming/operating-systems/networking.md'
             - Security, Troubleshooting, and Performance: 'programming/operating-systems/sec.md'
             - SSH: 'programming/operating-systems/intro-to-ssh.md'
