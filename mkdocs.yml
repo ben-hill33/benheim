@@ -1,4 +1,4 @@
-site_name: Ben Hill's Wiki
+site_name: Ben Hill's Tech Wiki
 site_url: https://github.com/ben-hill33/wikiheim
 
 theme:
@@ -23,6 +23,8 @@ theme:
         - navigation.instant
         - navigation.tabs.sticky
         - navigation.top
+    palette:
+        primary: deep orange
 
 markdown_extensions:
     - attr_list
@@ -93,6 +95,7 @@ nav:
         - Design Principles & Patterns:
             - SOLID: 'programming/principles/solid.md'
         - Database:
+            - Database Systems and Data Models: 'programming/database/entity-relate.md'
             - The Story of Data: 'programming/database/data-story.md'
             - SQL: 'programming/database/sql.md'
             - Normalization: 'programming/database/db-normalize.md'
