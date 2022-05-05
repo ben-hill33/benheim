@@ -42,7 +42,11 @@ markdown_extensions:
     - pymdownx.critic
     - pymdownx.inlinehilite
     - pymdownx.snippets
-    - pymdownx.superfences
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
     - pymdownx.snippets
     - pymdownx.details
 
@@ -55,6 +59,8 @@ nav:
     - Home: 'index.md'
     - About: 'about.md'
     - Python:
+        - Control Structures: 
+            - Sequences, Selections, Repetitions: 'python-fun/control-structures/sequence-select-rep.md'
         - Data Types: 
             - Py Basics Buffet: 'python-fun/data-types/pre-work.md'
             - Lists: 'python-fun/data-types/list-methods.md'
