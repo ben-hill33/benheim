@@ -68,7 +68,9 @@ nav:
             - List Solutions: 'python-fun/data-types/list-solutions.md'
             - Dictionaries: 'python-fun/data-types/dict.md'
             - Vectors: 'python-fun/data-types/vectors.md'
-            - Classes and Objects: 'python-fun/data-types/classes-objects.md'
+        - Object Oriented Python:
+            - Classes and Objects: 'python-fun/object-oriented/classes-and-objects.md'
+            - Recursion: 'python-fun/object-oriented/recursion.md'
         - Error Handling:
             - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
         - Data Structures:
