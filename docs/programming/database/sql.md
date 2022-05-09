@@ -1,6 +1,4 @@
-# SQL
-
-**What is SQL?**
+## :fontawesome-solid-database: What is SQL?
 
 SQL - Structured Query Language
 
@@ -9,21 +7,207 @@ SQL is a language designed to allow both technical and non-technical users query
 - There are many SQL databases including:
 - SQLite, MySQL, Postgres, Oracle and Microsoft SQL Servers. All of which support the common SQL language standard, but each implementation can differ in the additional features and storage types it supports.
 
-**Relational Databases**
+??? note "Relational Databases"
 
-A relational database represents a collection of related (2-dimensional) tables. Each of the tables are similar to an Excel spreadsheet, with a fixed number of named columns (attributes) and any number of rows of data.
+    A relational database represents a collection of related (2-dimensional) tables. Each of the tables are similar to an Excel spreadsheet, with a fixed number of named columns (attributes) and any number of rows of data.
 
-[SQLBolt](https://sqlbolt.com/) provides interactive lessons and exercises to help you learn SQL.
+## DDL and DML
 
-## Lesson 1: [SELECT queries 101](https://sqlbolt.com/lesson/select_queries_introduction)
+SQL has a number of commands in two general categories:
 
-To retrieve data we need to:
+=== "Data Definition Language (DDL)" 
 
-- SELECT statements, which are often colloquially refered to as queries.
-- A query itself is just a statement which declares what data we are looking for, where to find it in the database, and optionally, how to transform it before it is returned.
-- Think of SQL as an object or entity (Dog), and each row in that table as a specific instance of that type (golden retriever). 
-- If we want to retrieve all the data at once we can use the asterisk shorthand in place of listing all the column names individually. (SELECT * FROM mytable;) This is useful because it's a simple way to inspect a table.
+    _DDL_ consists of commands that are used to create new databases and tables as well as modify the structure of a database. DDL has more to do with the structure of the data, rather than the data itself.
 
-## Lesson 2: [Queries with constraints Pt. 1](https://sqlbolt.com/lesson/select_queries_with_constraints)
+    - Can add a new field to an existing table
+    - Drop an existing table
 
-  
+    DDL Commands:
+
+    - CREATE
+    - DROP
+    - ALTER
+    - TRUNCATE
+
+=== "Data Manipulation Language (DML)" 
+
+    _DML_ consists of commands that work with the actual data in the database. 
+
+    - Adds new records to a table
+    - Modify existing records
+    - Delete records
+    - Retrieve records from one or more tables
+
+    DML Commands
+
+    - SELECT
+    - INSERT
+    - UPDATE
+    - DELETE
+
+## SQL Statements
+
+??? info "DML Descriptions"
+
+    === "SELECT"
+
+        The SELECT statement is used for data retrieval.
+
+        The simplest query you can use with `SELECT` is `*` or "all" rows in a table. 
+
+        ```sql
+        SELECT * FROM country;
+        ```
+
+        Best practice, however, is to query the Fields you're looking for. 
+
+        ```sql
+        SELECT Name, HeadOfState, Population FROM country;
+        ```
+
+        What if you don't know the names of the fields, or you're not wanting back every country on the planet that match the fields you're looking for? Click the `WHERE` link, and you'll have your answer.
+
+        The `WHERE` clause can be used to filter out rows you don't need.
+
+        ```sql
+        SELECT * FROM country WHERE Continent = 'North America';
+        ```
+
+        The above query returns only countries in North America if you're querying the world database.
+
+        !!! note "Single or double quotes can be used in SQL"
+
+        The `LIKE` keyword and `%` wildcard can be used to include partial matches. A good example for the world db is if we were looking for countries that start with an "A":
+
+        ```sql
+        SELECT * FROM country WHERE Continent LIKE 'A%';
+        ```
+
+        If you want to sort the data that gets returned, `ORDER BY` can change the order of the rows ascending or descending by one or more fields. Query the world, and retrieve the GNP of all nations sorted from largest to smallest:
+
+        ```sql
+        SELECT Name, GNP FROM country ORDER BY GNP desc;
+        ```
+
+        Or what about:
+
+        ```sql
+        SELECT Name, SurfaceArea
+        FROM country
+        WHERE SurfaceArea <= 10000
+        ORDER BY SurfaceArea;
+        ```
+
+        The `AS` keyword is used so that SQL doesn't return the formula. You can use the `AS` keyword to essentially rename anything you're using in your query.
+
+        ```sql
+        select Name, Population/SurfaceArea AS "Population per Square Mile"
+        from country
+        order by Population/SurfaceArea desc;
+        ```
+
+        Use the `DISTINCT` keyword to eliminate duplicate rows in results.
+
+        ```sql
+        SELECT DISTINCT Continent
+        FROM country
+        ORDER BY Continent;
+        ```
+
+        The above query would return seven continents rather than returning every instance of country in a continent.
+
+        The `IN` keyword can be used with a list of items.
+
+        ```sql
+        SELECT *
+        FROM country
+        WHERE Continent IN ('North America','South America');
+        ```
+
+        The `BETWEEN` keyword indicates a range values
+
+        ```sql
+        SELECT *
+        FROM country
+        WHERE LifeExpectancy BETWEEN 50 AND 60
+        ORDER BY LifeExpectancy;
+        ```
+
+        Null values, as it turns out, you can work with as long as the null values is using `IS NULL`
+
+        ```sql
+        SELECT *
+        FROM country
+        WHERE IndepYear IS NULL;
+        ```
+
+        We can therefore use `IS NOT NULL`
+
+        ```sql
+        SELECT *
+        FROM country
+        WHERE IndepYear IS NOT NULL;
+        ```
+
+        `AND` will only work if the words to the left and right of it match.
+
+        ```sql
+        SELECT *
+        FROM country
+        WHERE IndepYear IS NOT NULL AND Population BETWEEN 100000 AND 200000;
+        ```
+
+        `OR`, only one side has to be true.
+
+        ```sql
+        SELECT *
+        FROM country
+        WHERE IndepYear < 1900 OR Population > 200000;
+        ```
+
+        `NOT` is used to reverse the truth of an expression.
+
+        ```sql
+        SELECT *
+        FROM country
+        WHERE NOT Continent = 'Europe';
+        ```
+
+    === "INSERT"
+
+        The `INSERT` statement adds new rows to the database and you can sort them other than the order they're in inside the database.
+
+        ```sql
+        INSERT INTO city
+        VALUES (9000,'Pinecrest','USA','Florida',18657);
+        ```
+        ```sql
+        INSERT INTO city (Name, District, CountryCode, ID)
+        VALUES ('Miramar','Florida','USA',9001);
+        ```
+
+    === "UPDATE"
+
+        Data living inside a database can and does age or get outdated. You can update outdated data using `UPDATE` which modifies the existing data.
+
+        !!! danger "Use with caution!"
+            Without the `WHERE` clause in the example query below, every record in the database would get updated.
+
+        ```sql
+        UPDATE country
+        SET HeadOfState = 'Jane Smith'
+        WHERE Code = 'USA';
+        ```
+
+    === "DELETE"
+
+        You guess it! `DELETE` removes records from a table.
+
+        ```sql
+        DELETE
+        FROM city
+        WHERE ID = 9000;
+        ```
+
+        !!! warning "Don't forget the `WHERE` clause!"
+            Unless you want to delete every record in the database
