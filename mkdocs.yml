@@ -98,17 +98,17 @@ nav:
         - Testing:
             - Pytest: 'python-fun/testing/python-tdd.md'
     - Programming:
-        - DevOps:
-            - Deployment: 'programming/devops/deployment.md'
-        - Design Principles & Patterns:
-            - SOLID: 'programming/principles/solid.md'
         - Database:
             - Database Systems and Data Models: 'programming/database/entity-relate.md'
-            - The Story of Data: 'programming/database/data-story.md'
             - SQL: 'programming/database/sql.md'
             - Normalization: 'programming/database/db-normalize.md'
             - Backend Performance: 'programming/database/backend-performance.md'
             - Data in Microservices: 'programming/database/data-in-micro.md'
+            - The Story of Data: 'programming/database/data-story.md'
+        - Design Principles & Patterns:
+            - SOLID: 'programming/principles/solid.md'
+        - DevOps:
+            - Deployment: 'programming/devops/deployment.md'
         - Intro to Operating Systems:
             - Linux Questions: 'programming/operating-systems/linux-practice.md'
             - Networks: 'programming/operating-systems/networking.md'
