@@ -212,7 +212,28 @@ SQL has a number of commands in two general categories:
         !!! warning "Don't forget the `WHERE` clause!"
             Unless you want to delete every record in the database
 
-??? info "FROM Clause: JOINS"
+??? info "JOINS"
+
+    There are two basic ways to join tables in a `SELECT` statement. Using the `FROM` or the `WHERE` clause. The goal is to link the primary and foreign keys from the tables needing to be joined respectively. 
+
+    ```sql
+    SELECT country.Name, LifeExpectancy, city.Name
+    FROM country, city
+    WHERE country.Code = city.CountryCode AND LifeExpectancy > 70;
+    ```
+
+    `country` and `city` create a link through dot notation for the `Name` field. The `WHERE` clause specifies the join.
+
+    If we use the `FROM` clause, we can use the `JOIN` keyword.
+
+    ```sql
+    SELECT country.Name, LifeExpectancy, city.Name
+    FROM country JOIN city on country.Code = city.CountryCode
+    WHERE LifeExpectancy > 70;
+    ```
+
+    Notice that the join expression has been moved to the FROM clause, and the WHERE clause is used only to filter out the rows we don’t want.
+    This example uses an _inner join_.
 
     === "NATURAL JOIN"
 
