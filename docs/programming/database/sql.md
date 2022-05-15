@@ -264,7 +264,3 @@ SQL has a number of commands in two general categories:
 
         !!! note
             Best practice suggest that `JOIN ON` or `JOIN USING` should be used instead of `NATURAL JOIN` or other legacy-style joins. `JOIN USING` isn't widely supported among DBMS vendors and it requires that that the common attributes have exactly the same name in the tables being joined. When in doubt, just use `JOIN ON`.
-
-    === "INNER JOIN"
-
-    === "OUTER JOIN"
