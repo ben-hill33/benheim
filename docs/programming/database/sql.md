@@ -211,3 +211,44 @@ SQL has a number of commands in two general categories:
 
         !!! warning "Don't forget the `WHERE` clause!"
             Unless you want to delete every record in the database
+
+??? info "FROM Clause: JOINS"
+
+    === "NATURAL JOIN"
+
+        _Natural Join_
+
+          - Determines the common attributes by looking for attributes with identical names and compatible data types.
+          - Selects only the rows with common values in the common attributes.
+          - If there's no common attributes, returns the relational product of the two tables.
+
+        ```sql
+        SELECT CUS_CODE, CUS_LNAME, INV_NUMBER, INV_DATE
+        FROM CUSTOMER NATURAL JOIN INVOICE;
+        ```
+
+        You're not limited to two tables
+
+        !!! note
+            While some DBMS include the `NATURAL JOIN` operator, it is generally discouraged in practice because it can be unclear to the programmer and to others performing maintenance on the code exactly which attribute or attributes the DBMS is using as the common attribute to perform the join.
+
+    === "JOIN USING"
+
+        Another way to express a join is through the `USING` keyword which returns only the rows with matching values in the column indicated in the `USING` clause which must exist in both tables.
+
+        ```sql
+        SELECT column-list 
+        FROM table1 JOIN table2 USING (common-column)
+        ```
+
+        As with the `NATURAL JOIN` command, `JOIN USING` operand does not require table qualifiers and only returns one copy of the common attribute.
+
+        !!! note
+            Oracle and MySQL support the `JOIN USING` syntax, MS SQL Server and Access do not.
+
+            - If `JOIN USING` is used in Oracle, then table qualifers can't be used with the common attribute in the query.
+            - MySQL allows table qualifers on the common attribute anywhere except in the `USING` clause itself.
+
+    === "INNER JOIN"
+
+    === "OUTER JOIN"
