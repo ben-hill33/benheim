@@ -249,6 +249,18 @@ SQL has a number of commands in two general categories:
             - If `JOIN USING` is used in Oracle, then table qualifers can't be used with the common attribute in the query.
             - MySQL allows table qualifers on the common attribute anywhere except in the `USING` clause itself.
 
-    === "INNER JOIN"
+    === "JOIN ON"
 
-    === "OUTER JOIN"
+        Another way to express a join when the tables _have no common attributes_ is to use the `JOIN ON` operand.
+
+        - The query returns only the rows that meet the indicated join condition.
+        - The join condition typically includes an equality comparison expression of two columns.
+          - The columns may or may not share the same name, but obviously they must have comparable data types.
+
+        ```sql
+        SELECT colum-list
+        FROM table1 JOIN table2 ON join-condition
+        ```
+
+        !!! note
+            Best practice suggest that `JOIN ON` or `JOIN USING` should be used instead of `NATURAL JOIN` or other legacy-style joins. `JOIN USING` isn't widely supported among DBMS vendors and it requires that that the common attributes have exactly the same name in the tables being joined. When in doubt, just use `JOIN ON`.
