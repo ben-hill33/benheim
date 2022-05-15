@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ben-razer/projects/wikiheim'
+git add .
+git commit -m ""
+git push -u origin main
+make: Leaving directory '/home/ben-razer/projects/wikiheim'
+ 
