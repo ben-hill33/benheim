@@ -32,9 +32,20 @@ First comes _object-oriented analysis (OOA)_ which is the process of looking at 
 
 The second phase is _object-oriented design (OOD)_ which handles converting the analysis requirements into blueprints. The designer names the objects, defines the behaviors, and specifies which objects can activate specific behaviors on other objects. These blueprints are usually in the form of diagrams that should define classes and interfaces that can then be implemented in various object-oriented programming languages.
 
-Finally, _object-oriented programming (OOP)_ is the process of converting a design into a working pgoram that does what the product owner originally requested. 
+Finally, _object-oriented programming (OOP)_ is the process of converting a design into a working program that does what the product owner originally requested. 
 
 If only those steps happened each time!
+
+## Classes
+
+A _class_ is the blueprint where we give the program instructions on how to build an _instance_ of that class blueprint; which is an _object_.
+
+- _CLASS:_ 
+    - A blueprint (model) that contains the attributes (data) and methods (behavior, actions) that describes itself.
+- _OBJECT:_
+    - An instance of a class. The object is what's created out of the blueprint model that's defined to tell the program what do 
+
+To illustrate the above distinction, which is important, I'll give a description of some object-oriented design principles in a drop-down menu that gives an overview of each principles, a tab with a class diagram, and a tab for implementing a class in Python code, as well as some examples of creating objects out of those classes.
 
 ### OOP Core Concepts
 
