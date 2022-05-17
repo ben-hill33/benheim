@@ -16,6 +16,7 @@ flake8 = "^4.0.1"
 pytest = "^7.1.1"
 numpy = "^1.22.3"
 pandas = "^1.4.2"
+mysql-connector-python = "^8.0.29"
 
 [tool.poetry.dev-dependencies]
 
