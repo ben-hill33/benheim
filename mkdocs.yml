@@ -70,6 +70,7 @@ nav:
             - Vectors: 'python-fun/data-types/vectors.md'
         - Object Oriented Python:
             - Classes and Objects: 'python-fun/object-oriented/classes-and-objects.md'
+            - Custom Classes: 'python-fun/object-oriented/custom-classes.md'
             - Recursion: 'python-fun/object-oriented/recursion.md'
         - Error Handling:
             - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
