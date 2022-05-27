@@ -72,6 +72,7 @@ nav:
             - Classes and Objects: 'python-fun/object-oriented/classes-and-objects.md'
             - Custom Classes: 'python-fun/object-oriented/custom-classes.md'
             - Recursion: 'python-fun/object-oriented/recursion.md'
+            - Connect MySQL with Python: 'python-fun/object-oriented/mysql-connection.md' 
         - Error Handling:
             - Bugs, Debugging, and Exceptions: 'python-fun/error-handling/err-hand.md'
         - Data Structures:
