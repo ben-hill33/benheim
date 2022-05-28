@@ -83,3 +83,24 @@ Composite *-- Component
 Composition is represented in UML with a diamond at the composite class pointing to the component class.
 
 !!! info "Classes that contain objects of other classes are usually referred to as composites, where classes that are used to create more complex types are referred to as components."
+
+Composition is more flexible than inheritance because it models a loosely coupled relationship. Changes to a component class have minimal or no effects on the composite class. Designs based on composition are more suitable to change. 
+
+## Choosing Inheritance or Composition in Python
+
+I know, right? They both enable code reuse and solve similar problems. How do we choose between them? 
+
+A common practice I've seen is to use the relationsnip that creates fewer dependenciees between two classes. That's almost always going to be composition, but even after all the details enclosed in this article concerning the two, it can still be hard to see what the relationship between two classes should be so lets lay out some guidelines:
+
+- **Use Inheritance over Composition:**
+    - If you see a clear _IS A_ relationsnhip.
+    - To leverage both the interface and implementation of the basae class.
+    - To provide **mixin** features to several unrelated classes when there is only one implementation of that feature.
+    - Look at the relationship between the derived class and its base, then reverse the relationshp to try and justify it. If you can justify the relationship in both directions, then you should _not_ use inheritance between them.
+- **Use Composition over Inheritance:**
+    - To model a _HAS A_ relationship that leverages the implementation of the component class.
+    - To create components that can be reused by multiple classes in your applications.
+    - To implement groups of behaviors and policies that can be applied interchangeably to other classes to customize their behavior.
+    - To enable run-time behavior changes without affecting existing classes.
+
+
