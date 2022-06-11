@@ -104,6 +104,7 @@ nav:
             - Database Systems and Data Models: 'programming/database/entity-relate.md'
             - SQL: 'programming/database/sql.md'
             - Normalization: 'programming/database/db-normalize.md'
+            - Functions, Subqueries, & Advanced Topics: 'programming/database/advanced.md'
             - Backend Performance: 'programming/database/backend-performance.md'
             - Data in Microservices: 'programming/database/data-in-micro.md'
             - The Story of Data: 'programming/database/data-story.md'
