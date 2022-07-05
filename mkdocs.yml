@@ -58,6 +58,8 @@ plugins:
 nav:
     - Home: 'index.md'
     - About: 'about.md'
+    - C#:
+        - Intro to C#: 'csharp/intro-csharp.md'
     - Python:
         - Control Structures: 
             - Sequences, Selections, Repetitions: 'python-fun/control-structures/sequence-select-rep.md'
