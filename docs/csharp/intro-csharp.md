@@ -10,3 +10,7 @@ Every application _must_ have a `Main()` method. This method returns nothing, or
 ## Compiling
 
 C# code can be ran by making use of what's called [**Just-In-Time** (JIT) **compilation**](https://en.wikipedia.org/wiki/Just-in-time_compilation){:target="blank"}, which is a way of executing computer code that involves compilation _during_ the execution of a program (at run time) rather than before execution. 
+
+## Data Types
+
+C# is a strongly-typed, object oriented programming language.
