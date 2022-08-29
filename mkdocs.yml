@@ -5,7 +5,7 @@ theme:
     name: material
     icon:
         admonition:
-            note: fontawesome/solid/sticky-note
+            note: fontawesome/solid
             abstract: fontawesome/solid/book
             info: fontawesome/solid/info-circle
             tip: fontawesome/solid/bullhorn
@@ -120,17 +120,21 @@ nav:
             - Security, Troubleshooting, and Performance: 'programming/operating-systems/sec.md'
             - SSH: 'programming/operating-systems/intro-to-ssh.md'
     - Data Structures & Algorithms:
-        - Breadth First Search: 'dsa/algorithms/breadth-first.md'
-        - Complexity: 'dsa/complexity/O(n).md'
-        - Big O: 'dsa/complexity/beginner-big-O.md'
-        - Good Code: 'dsa/complexity/good-code.md'
-        - Space: 'dsa/complexity/spacing.md'
-        - Time: 'dsa/complexity/timing-code.md'
-        - Linked List: 'dsa/data-structures/link-list.md'
-        - Hash Tables: 'dsa/data-structures/hash-tables.md'
-        - Stacks & Queues: 'dsa/data-structures/stack-que.md'
-        - Trees: 'dsa/data-structures/trees.md'
-        - Graphs: 'dsa/data-structures/graphs.md'
+        - Algorithms:
+            - Breadth First Search: 'dsa/algorithms/breadth-first.md'
+        - Complexity & Good Practices:
+            - Complexity: 'dsa/complexity/O(n).md'
+            - Big O: 'dsa/complexity/beginner-big-O.md'
+            - Good Code: 'dsa/complexity/good-code.md'
+            - Space: 'dsa/complexity/spacing.md'
+            - Time: 'dsa/complexity/timing-code.md'
+        - Data Structures:
+            - Abstract Data Types: 'dsa/data-structures/adt.md'
+            - Linked List: 'dsa/data-structures/link-list.md'
+            - Hash Tables: 'dsa/data-structures/hash-tables.md'
+            - Stacks & Queues: 'dsa/data-structures/stack-que.md'
+            - Trees: 'dsa/data-structures/trees.md'
+            - Graphs: 'dsa/data-structures/graphs.md'
     - Website Hub:
         - Basic:
             - Intro to HTML and JS: 'web-dev/201/201-class-01.md'

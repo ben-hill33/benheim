@@ -1,10 +1,12 @@
-# [A beginner's guide to Big O](https://www.educative.io/blog/a-big-o-primer-for-beginning-devs?aid=5082902844932096&utm_source=google&utm_medium=cpc&utm_campaign=blog-dynamic&gclid=Cj0KCQiA2af-BRDzARIsAIVQUOd2WHUlK88GyHKEMb_aLpirfK66O4kx2MFTV0KRK7yfxJL3TOxhG9YaAmd7EALw_wcB#common)
+## :material-run-fast: The Speed of Algorithms
 
 Big O notation is used in Computer Science to describe the performance or complexity of an algorithm.
-- Specifically it describes the worst-case scenario
+
+- Big O describes the worst-case, or slowest, scenario as we consider how many steps an algorithm should take. If it takes many steps, how will the algorithm scale with a company as it grows? In other words
 - Can be used to describe execution time required or the space used
 
 ## Vocab
+
 - **O(1):** _Constant time complexity_ - translates to a constant runtime, meaning regardless of the size of the input, the algorithm will have the same runtime.
   - Example: Array, inserting or retrieving an element
 - **O(n):** _Linear time complexity_ - describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. This means it will have loops that iterate over an unkown (n) amount of items
