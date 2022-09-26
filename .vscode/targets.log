@@ -1,4 +1,5 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+<<<<<<< HEAD
 # GNU Make 3.81
 # Copyright (C) 2006  Free Software Foundation, Inc.
 # This is free software; see the source for copying conditions.
@@ -11,6 +12,16 @@ make: *** No rule to make target `all'.  Stop.
 
 
 # Make data base, printed on Sun Jul  3 01:32:51 2022
+=======
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Aug 21 16:29:19 2022
+>>>>>>> 2ef143c (committing changes)
 
 # Variables
 
@@ -20,7 +31,13 @@ make: *** No rule to make target `all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
+<<<<<<< HEAD
 ELECTRON_NO_ATTACH_CONSOLE = 1
+=======
+WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
+# default
+.SHELLFLAGS := -c
+>>>>>>> 2ef143c (committing changes)
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -38,8 +55,13 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
+<<<<<<< HEAD
 _ = /usr/bin/make
 # makefile (from `makefile', line 1)
+=======
+_ = /home/ben-razer/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+# makefile (from 'makefile', line 1)
+>>>>>>> 2ef143c (committing changes)
 MAKEFILE_LIST :=  makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
@@ -52,21 +74,33 @@ P9K_SSH = 0
 # environment
 VSCODE_IPC_HOOK_EXTHOST = /var/folders/9w/pc2l86vx0_s0lm2y2f80m39m0000gn/T/vscode-ipc-f4fc02b4-92d7-4bd5-978f-0832d6e19986.sock
 # environment
+<<<<<<< HEAD
 VSCODE_CWD = /Users/bscript/projects/benheim
 # environment
 PATH = /Users/bscript/Library/Caches/pypoetry/virtualenvs/ben-wiki-aEjw-dlT-py3.10/bin:/Users/bscript/Library/Python/3.10/bin:/Users/bscript/.nvm/versions/node/v16.14.2/bin:/Users/bscript/Library/Python/3.10/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
 PLAT = macosx-10.9-universal2
+=======
+PATH = /home/ben-razer/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/linuxbrew/.linuxbrew/sbin:/home/linuxbrew/.linuxbrew/bin:/home/ben-razer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/dotnet/:/mnt/c/Users/benja/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/benja/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/benja/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/benja/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/benja/.dotnet/tools
+>>>>>>> 2ef143c (committing changes)
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 VIRTUAL_ENV = /Users/bscript/Library/Caches/pypoetry/virtualenvs/ben-wiki-aEjw-dlT-py3.10
 # environment
+<<<<<<< HEAD
 NVM_BIN = /Users/bscript/.nvm/versions/node/v16.14.2/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
+=======
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /mnt/wslg/runtime-dir/vscode-ipc-42ab04f5-5847-43db-a0df-866b00551db8.sock
+# environment
+VSCODE_SERVER_TAR = /mnt/c/Users/benja/AppData/Local/Temp/vscode-remote-wsl/30d9c6cd9483b2cc586687151bcbcd635f373630/vscode-server-stable-linux-x64.tar.gz
+>>>>>>> 2ef143c (committing changes)
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
@@ -78,12 +112,19 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/bscript/projects/benheim
 # environment
+<<<<<<< HEAD
 HOMEBREW_CELLAR = /opt/homebrew/Cellar
+=======
+WSL_INTEROP = /run/WSL/12_interop
+>>>>>>> 2ef143c (committing changes)
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
+<<<<<<< HEAD
 MANPATH = /Users/bscript/.nvm/versions/node/v16.14.2/share/man:/opt/homebrew/share/man::
 # environment
+=======
+>>>>>>> 2ef143c (committing changes)
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /Users/bscript
@@ -127,7 +168,19 @@ USER = bscript
 # default
 MAKECMDGOALS := all
 # environment
+<<<<<<< HEAD
 TERM_SESSION_ID = w0t0p0:3B52B779-FC73-476C-BC4A-BA8C415513D2
+=======
+SHLVL = 0
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = ben-razer
+# makefile
+.DEFAULT_GOAL := git
+# environment
+NAME = BenBlade
+>>>>>>> 2ef143c (committing changes)
 # environment
 LESS = -R
 # automatic
@@ -165,6 +218,7 @@ HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +F = $(notdir $+)
 # environment
+<<<<<<< HEAD
 ITERM_SESSION_ID = w0t0p0:3B52B779-FC73-476C-BC4A-BA8C415513D2
 # environment
 HOMEBREW_REPOSITORY = /opt/homebrew
@@ -174,37 +228,63 @@ COLORFGBG = 15;0
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
 COMMAND_MODE = unix2003
+=======
+VSCODE_HANDLES_SIGPIPE = true
+>>>>>>> 2ef143c (committing changes)
 # default
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
 # environment
+<<<<<<< HEAD
 ITERM_PROFILE = Default
 # environment
+=======
+>>>>>>> 2ef143c (committing changes)
 PAGER = less
 # environment
 LC_ALL = C
 # environment
+<<<<<<< HEAD
 P9K_TTY = old
+=======
+HOSTTYPE = x86_64
+>>>>>>> 2ef143c (committing changes)
 # automatic
 ^F = $(notdir $^)
 # default
  
 SUFFIXES := 
 # environment
+<<<<<<< HEAD
 POETRY_ACTIVE = 1
 # environment
 MAKELEVEL := 0
+=======
+WAYLAND_DISPLAY = wayland-0
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+>>>>>>> 2ef143c (committing changes)
 # environment
 LANG = C
 # environment
 TERM = xterm-256color
 # environment
+<<<<<<< HEAD
 _P9K_TTY = /dev/ttys001
 # environment
 VSCODE_PID = 17350
 # variable set hash-table stats:
 # Load=93/1024=9%, Rehash=0, Collisions=5/116=4%
+=======
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+WSL_DISTRO_NAME = Ubuntu-20.04
+# variable set hash-table stats:
+# Load=75/1024=7%, Rehash=0, Collisions=4/100=4%
+>>>>>>> 2ef143c (committing changes)
 
 # Pattern-specific Variable Values
 
@@ -275,6 +355,15 @@ makefile:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
+<<<<<<< HEAD
 # Finished Make data base on Sun Jul  3 01:32:51 2022
+=======
+# strcache performance: lookups = 30 / hit rate = 16%
+# hash-table stats:
+# Load=25/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Sun Aug 21 16:29:19 2022
+>>>>>>> 2ef143c (committing changes)
 
  
+make: *** No rule to make target 'all'.  Stop.
+
