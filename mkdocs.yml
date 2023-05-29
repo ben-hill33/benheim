@@ -51,8 +51,7 @@ markdown_extensions:
 
 plugins:
     - mkdocs-jupyter:
-            ignore_h1_titles: True
-    - search
+
 
 nav:
     - Home: 'index.md'
